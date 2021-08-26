@@ -1,5 +1,8 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
 
+body {
+    background: aquamarine;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 
 h1 {
@@ -11,15 +14,23 @@ h1 {
     margin: auto;
 }
 
-input, label {
+input, label, #output-box {
     display: block;
     margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border: none;
 }
 
 input {
     margin-bottom: 0.5rem;
     width: 50%;
     border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+label, #output-box {
+    font-size: 1.5rem;
 }
 
 #check-number {
@@ -28,4 +39,10 @@ input {
     margin: auto;
     padding: 1rem;
     border-radius: 1rem;
+    background: transparent;
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Noto Sans SC', sans-serif;
 }
+
